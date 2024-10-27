@@ -1,0 +1,223 @@
+/* SHOP */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 100%;
+  height: 200px;
+}
+
+
+.back {
+  height: 100px;
+  position: fixed;
+  top: 6%;
+  left: 5%;
+  z-index: 5;
+}
+
+.back a {
+  margin: 100px;
+  text-decoration: none;
+  color: #131313;
+}
+
+.back h2{
+  margin: 0;
+}
+
+.back:hover {
+  text-shadow: 0px 0 15px #ffbb8e;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  letter-spacing: 0.2em;
+  margin-left: 5px;
+}
+
+.right .block {
+  width: 22.5%;
+  height: 550px;
+  margin: 10px 15px 10px 20px;
+  padding-top: 9px;
+  overflow: hidden;
+  float: left;
+  border-top: 2px rgb(77, 76, 76) solid;
+  text-align: center;
+}
+
+.right .block p {
+  color: #c8c6c6;
+  padding: 0px 20px 0px 20px;
+}
+
+.right a {
+  text-decoration: none;
+}
+
+.right a:hover {
+  color: #ff6a00;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.right .block img {
+  width: 200px;
+  height: 200px;
+  margin: 0px 20px;
+}
+
+.right .header{
+  width: 100%;
+  height: 180px;
+  position: fixed;
+  display: block;
+  background-color: #e7e5e4;
+  z-index: 4;
+  padding-top: 10px;
+  border-bottom: 20px rgb(255, 120, 2) solid;
+}
+
+.right .header marquee {
+  top: 180px;
+  z-index: 3;
+  position: absolute;
+}
+
+.right .header h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 100%;
+  height: 5%;
+  position: absolute;
+  padding: 5% 0 10% 18%;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  color: #131313;
+  letter-spacing: .1em;
+  z-index: 1;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89, -9px 18px 1px #8f8e8d, -10px 20px 1px #949392, -11px 22px 1px #999897, -12px 24px 1px #9e9c9c, -13px 26px 1px #a3a1a1, -14px 28px 1px #a8a6a6, -15px 30px 1px #adabab, -16px 32px 1px #b2b1b0, -17px 34px 1px #b7b6b5, -18px 36px 1px #bcbbba, -19px 38px 1px #c1bfbf, -20px 40px 1px #c6c4c4, -21px 42px 1px #cbc9c8, -22px 44px 1px #cfcdcd, -23px 46px 1px #d4d2d1, -24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc, -27px 54px 1px #e2e0df, -28px 56px 1px #e4e3e2;
+  
+}
+
+.right h2 {
+  color: #c6c6c6;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.right .list {
+  margin: 15px 20px 10px 20px;
+  display: inline-block;
+}
+
+.right h3 {
+  color: #c8c6c6;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+.right h3 p{
+  display: inline;
+  margin-left: 10px;
+}
+
+.right .block:hover>a>p{
+  text-shadow: 0px 0 15px #ff7c01;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.right .block:hover>a>h3{
+  text-shadow: 0px 0 15px #ffbb8e;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.right .block:hover>a>h2{
+  color: #ff7c01;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #dedede, 0 2px 0 #b3b3b3, 0 3px 0 #686868, 0 4px 0 #757575, 0 5px 0 #676767, 0 6px 0 #6b6b6b, 0 7px 0 #5a5a5a, 0 8px 0 #575757, 0 9px 0 #4b4b4b, 0 10px 0 #454545;
+    transition: 0.2s;
+}
+.right .block:hover>a>img {
+
+    margin: 30px 25px 0px 30px;
+    width: 40%;
+    height: 30%;
+    box-shadow: 0px 0px 10px 10px #fff3ea;
+    border-radius: 5%;
+    opacity: 0.8;
+    transform: rotate(2deg);
+    transition: 0.4s;
+}
+
+.right .More {
+  width: 20%;
+  height: 750px;
+  margin: 10px 15px 10px 20px;
+  overflow: hidden;
+  float: left;
+
+}
+
+.right .More:hover {
+  text-shadow: 0px 0 15px #ffbb8e;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  letter-spacing: 0.2em;
+  padding-left: 3px;
+}
+
+button{
+  background-color: #202020; 
+  color: coral;
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+}
+
+#script-container {
+  position: fixed;
+  font-size: 16px;
+  top: 2%;
+  right: 18%;
+  padding: 20px;
+  border-radius: 10%;
+  z-index: 9999;
+}
+
+/* CSS cho hộp thoại tùy chỉnh */
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 100;
+}
+
+/* CSS cho hình ảnh trong hộp thoại */
+.custom-alert img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+/* CSS cho văn bản trong hộp thoại */
+.custom-alert p {
+  font-size: 18px;
+  color: black;
+}

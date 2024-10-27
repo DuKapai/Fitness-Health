@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="Function.css">
+    <link rel="shortcut icon" href="../picture/btec.png" type="x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <img src="../picture/btec.png" alt="Logo">
+        <h2>Feedback Form</h2>
+        <form class="login-form">
+            <div class="input-groupF">
+                <label for="name">Your Name:</label>
+                <input placeholder="Enter your name" type="text" id="nameFb" name="nameFb" required>
+            </div>
+            <div class="input-groupF">
+                <label for="email">Your Email:</label>
+                <input placeholder="Enter your email" type="email" id="emailFb" name="emailFb" required>
+            </div>
+            <div class="input-groupF">
+                <label>
+                    <p>Your Feedback:</p>
+                </label>
+                <textarea placeholder="Enter your feedback" style="border-radius: 10px;" id="feedback" name="feedback"
+                    rows="10" cols="66%" required></textarea>
+            </div>
+            <button type="submit" id="submitFb" name="submitFb">Submit Feedback</button>
+        </form>
+        <div class="extra-links">
+            <a href="./Privacy_Policy.html">Privacy Policy</a><span style="color: aliceblue; top: 462px;"> | </span><a
+                href="./TermsOfService.html">Terms of Service</a>
+        </div>
+    </div>
+    <a class="backCont"
+        style="text-decoration: none; color: azure; font-size: 18px; position: absolute; top: 78%; right: 85%;"
+        href="Contact.html">
+        << Contact</a>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const form = document.querySelector('.login-form');
+
+                    form.addEventListener('submit', function (event) {
+                        event.preventDefault();
+
+                        const name = document.getElementById('nameFb').value;
+                        const email = document.getElementById('emailFb').value;
+                        const feedback = document.getElementById('feedback').value;
+
+                        if (name && email && feedback) {
+                            alert('Thank you for your feedback!');
+                        } else {
+                            alert('Please fill in all fields before submitting.');
+                        }
+                    });
+                });
+            </script>
+</body>
+
+</html>
